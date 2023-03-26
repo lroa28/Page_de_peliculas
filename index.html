@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Link archivo CSS -->
+	<link rel="stylesheet" href="css/estilos.css">
+	<!-- Link Fontawesome Iconos -->
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+	<!-- Link Bootstraps -->
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+	<title>Página de películas</title>
+</head>
+<body>
+
+<!-------------------------------------------//
+// ---------------- HEADER ------------------//
+// ------------------------------------------->
+	<header>
+		<div class="contenedor">
+			<h2 class="logo">Brand</h2>
+			<nav>
+				<a href="#" class="activo">Inicio</a>
+				<a href="#">Películas</a>
+				<a href="#">Más Recientes</a>
+				<a href="#">Mi lista</a>
+				<a href="#">Login</a>
+			</nav>
+		</div>
+	</header>
+
+<!-------------------------------------------//
+// ---------------- MAIN --------------------//
+// ------------------------------------------->
+
+	<main>
+		<div class="pelicula-principal">
+			<div class="contenedor">
+				<h3 class="titulo">El Señor de los Anillos</h3>
+				<p class="descripcion">El Señor de los Anillos (The Lord of the Rings) es una novela de fantasía épica escrita por el filólogo y escritor británico J. R. R. Tolkien.
+					Su historia se desarrolla en la Tercera Edad del Sol de la Tierra Media, un lugar ficticio poblado por hombres y otras razas antropomorfas como los hobbits, los elfos o los enanos.</p>
+				<button role="button" class="boton"><i class="fas fa-play"></i>Reproducir</button>
+				<button role="button" class="boton"><i class="fas fa-info-circle"></i>Más información</button>
+			</div>
+		</div>
+
+		<div class="peliculas-recomendadas contenedor">
+			<div class="contenedor-titulo-controles">
+				<h3>Películas Recomendadas</h3>
+				<div class="indicadores"></div>
+			</div>
+			
+			<div class="contenedor-principal">
+				<button id="flecha-izquierda" class="flecha-izquierda"><i class="fas fa-angle-left"></i></button>
+				<div class="contenedor-carousel">
+					<div class="carousel">
+						<div class="pelicula">
+							<a href="#">
+								<img src="img/1.png" alt="">
+							</a>
+						</div>
+						<div class="pelicula">
+							<a href="#">
+								<img src="img/2.png" alt="">
+							</a>
+						</div>
+						<div class="pelicula">
+							<a href="#">
+								<img src="img/3.png" alt="">
+							</a>
+						</div>
+						<div class="pelicula">
+							<a href="#">
+								<img src="img/4.png" alt="">
+							</a>
+						</div>
+						<div class="pelicula">
+							<a href="#">
+								<img src="img/5.png" alt="">
+							</a>
+						</div>
+						<div class="pelicula">
+							<a href="#">
+								<img src="img/6.png" alt="">
+							</a>
+						</div>
+						<div class="pelicula">
+							<a href="#">
+								<img src="img/7.png" alt="">
+							</a>
+						</div>
+						<div class="pelicula">
+							<a href="#">
+								<img src="img/1.png" alt="">
+							</a>
+						</div>
+						<div class="pelicula">
+							<a href="#">
+								<img src="img/2.png" alt="">
+							</a>
+						</div>
+						<div class="pelicula">
+							<a href="#">
+								<img src="img/3.png" alt="">
+							</a>
+						</div>
+						<div class="pelicula">
+							<a href="#">
+								<img src="img/4.png" alt="">
+							</a>
+						</div>
+						<div class="pelicula">
+							<a href="#">
+								<img src="img/5.png" alt="">
+							</a>
+						</div>
+						<div class="pelicula">
+							<a href="#">
+								<img src="img/6.png" alt="">
+							</a>
+						</div>
+						<div class="pelicula">
+							<a href="#">
+								<img src="img/7.png" alt="">
+							</a>
+						</div>
+						<div class="pelicula">
+							<a href="#">
+								<img src="img/1.png" alt="">
+							</a>
+						</div>
+						<div class="pelicula">
+							<a href="#">
+								<img src="img/2.png" alt="">
+							</a>
+						</div>
+						<div class="pelicula">
+							<a href="#">
+								<img src="img/3.png" alt="">
+							</a>
+						</div>
+						<div class="pelicula">
+							<a href="#">
+								<img src="img/4.png" alt="">
+							</a>
+						</div>
+						<div class="pelicula">
+							<a href="#">
+								<img src="img/5.png" alt="">
+							</a>
+						</div>
+						<div class="pelicula">
+							<a href="#">
+								<img src="img/6.png" alt="">
+							</a>
+						</div>
+						<div class="pelicula">
+							<a href="#">
+								<img src="img/7.png" alt="">
+							</a>
+						</div>
+					</div>
+				</div>
+				<button id="flecha-derecha" class="flecha-derecha"><i class="fas fa-angle-right"></i></button>
+			</div>
+		</div>
+	</main>
+
+
+<!-------------------------------------------//
+// ----------------FOOTER--------------------//
+// ------------------------------------------->
+
+	<footer class="contenedor">
+
+		<!--- Redes Sociales --->
+
+			<div class="redes-sociales">
+				<div class="contenedor-icono">
+					<a href="#" target="_blank" class="twitter">
+						<i class="fab fa-twitter"></i>
+					</a>
+				</div>
+				<div class="contenedor-icono">
+					<a href="#" target="_blank" class="facebook">
+						<i class="fab fa-facebook-f"></i>
+					</a>
+				</div>
+				<div class="contenedor-icono">
+					<a href="#" target="_blank" class="instagram">
+						<i class="fab fa-instagram"></i>
+					</a>
+				</div>
+			</div>
+
+		<!--- Letras Footer --->
+<hr> <br>
+			<div class="creado-por g-2">
+				<p>Sitio diseñado por <a style="color: rgb(74, 71, 71)" href="#">Overflow X</a> - <a style="color: rgb(74, 71, 71); font-weight: bold" href="#">by 'Lucrecia Roa'</a></p>
+                <div class="col-lg-12 col-md-12 col-sm-12 card-footer">
+                	<p class="lead align-items-center text-center" style="color: rgb(74, 71, 71); font-size: small;">© Copyright 2023 - Todos los derechos reservados.</p>
+                </div>
+            </div>
+
+        <!--Botón Arriba-->
+        <div class="go-top-container redondo">
+        	<div>
+        	  <button class="go-top-button"><i class="fas fa-chevron-up"></i></button>
+        	</div>
+        </div>
+
+	</footer>
+	<!-- Fin FOOTER -->
+
+
+<!--Scripts varios-->
+<script src="js/botonArriba.js"></script>	
+<script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

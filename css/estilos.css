@@ -327,6 +327,24 @@ footer .creado-por a:hover {text-decoration: underline;}
 	}
   }
 
+
+/*=======================================================================================================
+=                                        Media queries                                                  =
+========================================================================================================*/
+/* col-xs */
+@media (max-width: 767px) {
+.peliculas-recomendadas {
+	display:none;
+	/*visibility: hidden;*/ /* Oculta el contenedor pero deja el espacio */
+} 
+
+}
+
+/* col-sm */
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
 @media screen and (max-width: 800px) {
 	header .logo {
 		margin-bottom: 10px;
@@ -372,21 +390,11 @@ footer .creado-por a:hover {text-decoration: underline;}
 	.peliculas-recomendadas .flecha-derecha {
 		display: none;
 	}
-}
 
-/*=======================================================================================================
-=                                        Media queries                                                  =
-========================================================================================================*/
-/* col-xs */
-@media (max-width: 767px) {
-.peliculas-recomendadas{
-	visibility: hidden;
-} 
-}
-
-/* col-sm */
-@media (min-width: 768px) and (max-width: 991px) {
-
+	.peliculas-recomendadas {
+		display:none;
+		/*visibility: hidden;*/ /* Oculta el contenedor pero deja el espacio */
+	} 
 }
 
 /* col-md */

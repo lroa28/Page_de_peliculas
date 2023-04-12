@@ -229,10 +229,16 @@ footer .redes-sociales .instagram {background: #c13584;}
 footer .redes-sociales a i {
 	font-size: 20px;
 	line-height: 60px;
+
 }
 
 footer .contenedor-icono:hover a {
 	animation: icono .5s ease;
+}
+
+footer p {
+	font-size: 18px;
+	font-weight: bold;
 }
 
 @keyframes icono {

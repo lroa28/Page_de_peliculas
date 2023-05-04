@@ -59,6 +59,7 @@ header nav a.activo {
 	display: flex;
 	align-items: end;
 	color: #fff;
+	background-attachment: fixed;
 }
 
 .pelicula-principal .contenedor {
@@ -343,6 +344,55 @@ footer .creado-por a:hover {text-decoration: underline;}
 	display:none;
 	/*visibility: hidden;*/ /* Oculta el contenedor pero deja el espacio */
 } 
+
+.go-top-container {
+	position: fixed;
+	bottom: 2rem;
+	right: 3rem;
+	width: 3rem;
+	height: 2rem;
+	z-index: -1;
+}
+  
+.go-top-button {
+	width: 5px;
+	height: 5px;
+	border-radius: 200%;
+	cursor: pointer;
+	transition: 0.2s;
+	position: absolute;
+	top: 40%;
+	left: 55%;
+	transform: translate(-50%, -50%);
+	z-index: -1;
+	display: block;
+	background-color: rgba(47, 42, 42, 0.67);
+}
+  
+.go-top-button i {
+	position: absolute;
+	font-size: 1.7rem;
+	top: 48%;
+	left: 50%;
+	transform: translate(-50%, -50%) scale(0);
+	color:red;
+	transition: 0.2s;
+}
+  
+.show {
+	z-index: 10;
+}
+  
+.show .go-top-button {
+	animation: popup 0.3s ease-in-out;
+	width: 5.6rem;
+	height: 5.6rem;
+	z-index: 11;
+}
+  
+.show i {
+	transform: translate(-50%, -50%) scale(1);
+}
 
 }
 
